@@ -115,7 +115,7 @@ video {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 420px;
-    height: 590px;
+    height: 640px;
     background: transparent;
     backdrop-filter: blur(10px);
     z-index: 1000;
@@ -642,4 +642,5 @@ footer{
 .creditos-spn{
     margin-left: 55em;
 }
+
 }
