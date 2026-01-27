@@ -115,7 +115,7 @@ video {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 420px;
-    height: 690px;
+    height: 800px;
     background: transparent;
     backdrop-filter: blur(10px);
     z-index: 1000;
@@ -644,4 +644,5 @@ footer{
 }
 
 }
+
 
