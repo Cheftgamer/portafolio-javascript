@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="porta.css">
+  <link rel="icon" href="/imagenes/icono.png" type="imagenes/x-png">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <script src="porta.js"></script>
+  <title>@</title>
+</head>
+<body>
+<!-- Video y audio de fondo -->
+  <video autoplay muted loop playsinline class="video">
+    <source src="/audio-video/Spiderman.mp4" type="video/mp4">
+  </video>
+  <audio autoplay loop playsinline id="audio">
+    <source src="/audio-video/Salsa Rap.mp3" type="audio/mp3">
+  </audio>
+  <button id="audio-control" onclick="toggleAudio()">🔊</button>
+  <button id="abrir" onclick="abrirMenu()">🎵</button>
+  <div class="ocultar-panel">
+    <div class="panel">
+      <img src="/imagenes/estu.jpg" alt="logo de mi estudio" class="panel-logo" loading="lazy">
+      <h2>Elije una cancion</h2>
+      <p class="panel-p">elije una cancion para reproducir</p>
+      <button class="btn-can" onclick="cambiarCancion('/audio-video/Salsa Rap.mp3')">💃🏻 Cancion original</button>
+      <button class="btn-can" onclick="cambiarCancion('/audio-video/R.D.L.F..mp3')">📢 R.D.L.F</button>
+      <button class="btn-can" onclick="cambiarCancion('/audio-video/Chica Irreal.mp3')">👩🏻 Chica Irreal</button>
+      <button class="btn-can" onclick="cambiarCancion('/audio-video/Farandula.mp3')">🍺 Farandula</button>
+      <button class="btn-can" onclick="cambiarCancion('/audio-video/Respeto.mp3')">😤 Respeto</button>
+      <button class="btn-can" onclick="cambiarCancion('/audio-video/Jerigonza.mp3')">🚨 Jerigonza</button>
+      <button class="btn-can" onclick="cambiarCancion('/audio-video/Gamines.mp3')">✒️ Gamines</button>
+      <button class="btn-can" onclick="cambiarCancion('/audio-video/ILUSTRE CAMARADA.mp3')">🫱🏼‍🫲🏻 Ilustre Camarada</button>
+      <button class="btn-can" onclick="cambiarCancion('/audio-video/Criterio.mp3')">😎 Criterio</button>
+      <button id="cerrar" onclick="cerrarMenu()">X</button>
+    </div>
+  </div>
+
+
+<!-- Parte principal de la pagina-->
+  <header class="contenedor-prin">
+    <nav class="nav">
+      <img src="/imagenes/estu.jpg" alt="logo de mi estudio" class="logo">
+      <ul class="nav-ul">
+        <li class="nav-li nav-lies"><a href="#Inicio" class="nav-a">Inicio</a><span class="material-symbols-outlined nav-spn-h">home</span></li>
+        <li class="nav-li"><a href="#proyecto" class="nav-a">proyectos</a><span class="material-symbols-outlined nav-spn-m">computer</span></li>
+        <li class="nav-li"><a href="#" class="nav-a">Contacto</a><span class="material-symbols-outlined nav-spn-C">contacts_product</span></li>
+      </ul>
+    </nav>
+  </header>
+
+<!-- Parte central de la pagina -->
+  <main class="contenedor-cen" id="Inicio">
+    <img src="/imagenes/icono.png" alt="imagen de mi usuario en discord" class="item-img">
+    <div class="tarjeta">
+      <div class="tarjeta-div">
+        <h2 class="titu">Historia</h2>
+        <p class="tarjeta-p">Empeze como un simple administrador de un servido de alternos,de hay me gusto crear mi propia network</p>
+        <p class="tarjeta-p">y un estudio de grandes proyectos y escala tanto de hacer una academia y un hosting para crecer y ayudar ala gente.</p>
+      </div>
+    </div>
+    <div class="tarjeta2">
+      <div class="tarjeta-div2">
+        <p class="tarjeta-p">En esa epoca para ser mas exactos en 2017, empeze con la creacion de servidores no profecinales en alternos teniendo muy poca gente al principio.</p><br>
+        <p class="tarjeta-p">Desde hay segui aprendiendo y creciendo como programador principal mente enfocado en boxpvp, y demas modalidades.</p>
+      </div>
+    </div>
+    <div class="tarjeta3">
+      <div class="tarjeta-div3">
+        <p class="tarjeta-p">Actualmente soy un developer profecional con <strong>9 años de experiencia</strong> y creador de <strong>bots, plugins y paginas web</strong>.</p><br>
+        <p class="tarjeta-p">Desde hay segui aprendiendo y creciendo como programador principal mente enfocado en boxpvp, y demas modalidades.</p>
+      </div>
+    </div>
+<!-- Servidores donde trabaje -->
+    <div class="trabajo">
+      <h2 class="trabajo-h2">Servidores donde trabaje</h2>
+      <ol class="trabajo-ol">
+        <li class="trabajo-li">Nixbox - dueño</li>
+        <li class="trabajo-li">tetemios - dev</li>
+        <li class="trabajo-li">drolph - dueño</li>
+        <li class="trabajo-li">rotium - dev</li>
+        <li class="trabajo-li">minebort - dueño</li>
+        <li class="trabajo-li">deleongui - dueño</li>
+        <li class="trabajo-li">mineglow - dev</li>
+        <li class="trabajo-li">oxiriam - dev</li>
+        <li class="trabajo-li">MineFast - dev</li>
+        <li class="trabajo-li">Sunmc - dev</li>
+        <li class="trabajo-li">Clownmc - dev</li>
+        <li class="trabajo-li">Frostmoon - dev</li>
+      </ol>
+    </div>
+
+<!-- Configuraciones que e echo -->
+    <div class="configs">
+      <h2>Configuraciones</h2>
+      <p class="configs-p">Aca voy a dejar 3 de mis Configuraciones</p>
+      <p class="configs-p">mas reconocidas en mis trabajos</p>
+      <p class="configs-p">recuerda que al darle al boton paraver como seve dentro del juego
+        volver a darle el mismo click ala imagen para cerrarla
+      </p>
+      <span class="config-1">
+        <img src="/imagenes/Menu.png" alt="Una de mis Configuraciones" class="config-img">
+        <article>
+          <h3 class="config-h3">Config #1</h3>
+          <p class="configs-p">
+            Esta configuración fue echa para rotium
+            en especifico para su survival es un menu
+            comun pero funcional al 100% tiene buen
+            lore cabezas custom y facil de diseñar
+          </p>
+          <p class="configs-p">Aqui puedes ver como seve</p>
+          <button id="Mostrar" onclick="mostrarImg()">Ver img</button>
+          <img src="/imagenes/Menu-m.png" alt="Como se ve el menu en el juego" style="display: none;" id="mImg">
+        </article>
+      </span>
+
+      <span class="config-2">
+        <img src="/imagenes/Tab.png" alt="Configuracion del tab estetica pero bonita" class="config-img">
+        <article>
+          <h3 class="config-h3">Config #2</h3>
+          <p class="configs-p">
+            Esta configuración fue echa para Nautilus
+            en especifico para su boxpvp es un TAB
+            comun pero bonito y estetico.
+          </p>
+          <p class="configs-p">Aqui puedes ver como seve</p>
+          <button id="Mostrar" onclick="mostrarImg2()">Ver img</button>
+          <img src="/imagenes/Tab-m.png" alt="Como se ve el tab dentro del juego" style="display: none;" id="mImg2">
+        </article>
+      </span>
+
+      <span class="config-3">
+        <img src="/imagenes/Ligth.png" alt="Configuracion del chat muy bonita con distintas funciones" class="config-img">
+        <article>
+          <h3 class="config-h3">Config #3</h3>
+          <p class="configs-p">
+            Esta configuracion es del plugin Ligthchat un plugin
+            muy poco conocido pero esta muy completo con junto
+            del plugin nonchat esta es una de las configuraciones mas
+            faciles pero bonitas en el juego.
+          </p>
+          <p class="configs-p">Aqui puedes ver como seve</p>
+          <button id="Mostrar" onclick="mostrarImg3()">Ver img</button>
+          <img src="/imagenes/Ligth-m.png" alt="Como se ve el tab dentro del juego" style="display: none;" id="mImg3">
+        </article>
+      </span>
+    </div>
+
+<!-- Proyecto -->
+    <div class="Proyecto" id="proyecto">
+      <h3 class="proyecto-h3">Proyecto</h3>
+      <img src="/imagenes/lunar.png" alt="Este es el logo de mi proyecto lunarloom" class="proyecto-img" onclick="mostrarIp()">
+      <span id="Ip">Ip: lunarloom.fun Puerto: 19132</span>
+    </div>
+
+<!-- Contacto -->
+    <div class="Contacto">
+      <h2>Contacto</h2>
+      <p class="Contacto-p">
+        Si quieres contactarme para algun proyecto o trabajo puedes 
+        hacerlo en mis redes sociales o darle click a mi correo.
+      </p>
+      <span>
+          <img src="/imagenes/insta.png" alt="instagram icono" loading="lazy" class="Contacto-img">
+          <p class="Contacto-p2">@cheft_gamer</p>
+          <img src="/imagenes/tiktok.png" alt="tiktok icono" loading="lazy" class="Contacto-img">
+          <p class="Contacto-p2">@cheft_gamer</p>
+          <img src="/imagenes/discord.png" alt="discord icono" loading="lazy" class="Contacto-img">
+          <p class="Contacto-p2">@cheft_gamer</p>
+          <img src="/imagenes/gmail.png" alt="gmail icono" loading="lazy" class="Contacto-img">
+          <ul>
+            <li class="Contacto-li">
+              <a href="mailto:tayinwkh@gmail.com" class="Contacto-email">tayinwkh@gmail.com</a>
+            </li>
+          </ul>
+        </span>
+        <p class="Contacto-p">
+          Contratos al privado o por correo
+          dandole click al link de correo.
+        </p>
+    </div>
+  </main>
+
+<!-- Parte final de la pagina -->
+  <footer class="creditos">
+    <span class="creditos-spn">&copy; 2025 Cheft_dev</span>
+  </footer>
+</body>
+</html>
