@@ -110,15 +110,16 @@ video {
 /*Mini panel colores ect*/
 .panel{
     display: none;
-    position: relative;
-    top: 10%;
+    position: fixed;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 420px;
-    height: 1300px;
+    height: 800px;
     background: transparent;
     backdrop-filter: blur(10px);
     z-index: 1000;
+    overflow-x: scroll;
 }
 .ocultar-panel {
     display: none;
@@ -644,6 +645,7 @@ footer{
 }
 
 }
+
 
 
 
