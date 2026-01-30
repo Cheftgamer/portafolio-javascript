@@ -480,6 +480,10 @@ footer{
     top: 8px;
     color: #2EBDFF;
 }
+/* PANEL */
+.panel{
+    heigth: 600px
+}
 
 /* Historia */
 .tarjeta{
@@ -645,6 +649,7 @@ footer{
 }
 
 }
+
 
 
 
