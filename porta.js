@@ -33,6 +33,12 @@ function mostrarImg3(){
     img3.style.display = 'block'
 }
 
+// Funciones de discord
+function entrarDc(){
+    let Dc = document.querySelector('.dc')
+    Dc.style.display = 'block'
+}
+
 // Funcion de proyecto
 function mostrarIp(){
     let proyecto = document.getElementById('Ip')
@@ -59,6 +65,12 @@ window.onclick = function(e){
     let proyecto = document.getElementById('Ip')
     if(e.target == proyecto){
         proyecto.style.display = 'none'
+    }
+
+
+    let Dc = document.querySelector('.dc')
+    if(e.target == Dc){
+        Dc.style.display = 'none'
     }
 }
 // Funcion de audio
@@ -92,5 +104,6 @@ function animarTitulo() {
         }, 2000);
     }
 }
+
 
 animarTitulo();
