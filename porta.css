@@ -180,6 +180,18 @@ h2{
     padding: 7px 9px;
 }
 
+/* Panel de dc */
+.dc{
+    display: none;
+    position: sticky;
+    top: 10%;
+    margin-top: 7px;
+    margin-left: 6%;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+
 /*Pate central*/
 .item-img{
     position: relative;
@@ -486,6 +498,18 @@ footer{
     height: 600px;
 }
 
+/* Panel de dc */
+.dc{
+    display: none;
+    position: sticky;
+    top: 10%;
+    margin-top: 7px;
+    margin-left: 35%;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+
 /* Historia */
 .tarjeta{
     margin-left: 40em;
@@ -580,6 +604,18 @@ footer{
     color: #2EBDFF;
 }
 
+/* Panel de dc */
+.dc{
+    display: none;
+    position: sticky;
+    top: 10%;
+    margin-top: 7px;
+    margin-left: 45%;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+
 /* Historia */
 .tarjeta{
     margin-left: 50em;
@@ -650,6 +686,7 @@ footer{
 }
 
 }
+
 
 
 
